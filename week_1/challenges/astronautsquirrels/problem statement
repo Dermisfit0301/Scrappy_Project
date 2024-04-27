@@ -1,1 +1,11 @@
-We have to find the squirrels who are wearing astronaut equipment from all the squirrels that exist in the list of scrappy squirrels. 
+Challenge 3: Find the astronaut Scrappy Squirrels
+Before Scrappy Project, our team worked on an NFT education project called Scrappy Squirrels. As part of this project, we had created over 14,000 squirrels generatively. You've already seen a lot of those squirrels in our logos and slides.
+
+Each squirrel has a unique combination of expression, fur, background, and clothes. For this challenge, your task is to identify the IDs of all squirrels that wear an astronaut suit among the first 2000 squirrels.
+
+Each squirrel has a JSON file associated with it. For instance, Scrappy Squirrel #1's JSON can be found at https://scrappyart.s3.ap-south-1.amazonaws.com/json/1. Similarly, Scrappy Squirrel #2000 can be found at https://scrappyart.s3.ap-south-1.amazonaws.com/json/5000.
+
+If you visit this URL on a broswer, you should get output that looks something like this:
+
+{"name": "Scrappy Squirrel #250", "description": "Scrappy Squirrels is a collection of 14,000 NFTs on the Ethereum blockchain. Scrappy Squirrels are meant for engineers, designers, and entrepreneurs pushing web3 forward.", "image": "https://scrappyart.s3.ap-south-1.amazonaws.com/images/00250.png", "attributes": [{"trait_type": "Background", "value": "Cyan"}, {"trait_type": "Body", "value": "Purple"}, {"trait_type": "Expressions", "value": "Winking"}, {"trait_type": "Clothes", "value": "Floral Print OverShirt"}]}
+This is something called a JSON file. Notice how similar it is to a Python dictionary.
